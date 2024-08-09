@@ -84,7 +84,11 @@ fun HomeInfiniteBanner(
                 contentPadding = PaddingValues(horizontal = 16.dp)
             ) {
 
-                val item = slides[pagerState.getRealCurrentPage(slides.size)]
+                val item = when (it) {
+                    0 -> slides.last()
+                    pageCount - 1 -> slides.first()
+                    else -> slides[it - 1]
+                }
 
                 AsyncImage(
                     model = item.coverUrl,
