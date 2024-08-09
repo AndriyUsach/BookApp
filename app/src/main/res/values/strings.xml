@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookApp</string>
+
+<!--    Splash screen-->
+    <string name="splash_title">Book App</string>
+    <string name="splash_subtitle">Welcome to Book App</string>
+
+    <string name="read_now">Read Now</string>
+    <string name="recommendation_title">You will also like</string>
+
+    <string name="label_readers">Readers</string>
+    <string name="label_likes">Likes</string>
+    <string name="label_quotes">Quotes</string>
+    <string name="label_genre">Genre</string>
+
+    <string name="summary">Summary</string>
+
+    <string name="title_home">Library</string>
+</resources>
